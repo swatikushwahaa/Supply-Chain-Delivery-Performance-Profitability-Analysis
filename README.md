@@ -16,6 +16,7 @@ delivery failures and profit losses occurred simultaneously.
 The ops team needed a prioritised action list to address
 the highest-impact orders first.
 
+
 ---
 
 ## Dataset
@@ -24,8 +25,10 @@ the highest-impact orders first.
 - 4 shipping modes (Standard Class, First Class,
   Second Class, Same Day)
 - Columns: delivery timing, shipping mode, profit per order,
-  customer segment, product category, market, etc
-
+  customer segment, product category, market, etc.
+- Dataset sourced from Kaggle — [https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset]
+  Raw data not included in repo due to file size (180K+ rows).
+  Download from the link above and run Power Query refresh to regenerate.
 ---
 
 ## Data Preparation (Power Query)
