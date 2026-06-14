@@ -100,23 +100,26 @@ Built 7 calculated columns:
 ---
 
 ## Dashboard
-Built a 2-page Power BI dashboard:
+Built a 2-page Power BI dashboard: 
 
 **Page 1 — Supply Chain Overview**
 - 5 KPI cards: Total Orders, Late Rate %, Critical Orders,
   Profit at Risk, Loss Orders
 - Donut chart: delivery status distribution
-- Bar chart: late rate by shipping mode with 50% threshold line
+- Bar chart: late rate by shipping mode
 - Combo chart: market volume vs critical orders
 - Loss categories bar: top 10 loss-making categories
+  <img width="1296" height="737" alt="Page1 Overview" src="https://github.com/user-attachments/assets/c273c702-1aa4-4fdc-bcc2-a03ffbc046d0" />
 
 **Page 2 — Risk Action List**
 - Dynamic KPI cards: critical order count + profit at risk
-- Action table: filtered to CRITICAL + HIGH RISK orders only,
+- Action table: filtered to Critical + High Risk orders only,
   sorted by risk score descending, with conditional formatting
 - Bar chart: profit at risk by market
 - Stacked bar: risk score distribution by shipping mode
 - Slicers: Market + Shipping Mode for ops team filtering
+<img width="1312" height="741" alt="Page2 ActionList" src="https://github.com/user-attachments/assets/2a008303-945f-4438-84ad-356b98eb65f0" />
+
 
 ---
 
@@ -135,6 +138,6 @@ Built a 2-page Power BI dashboard:
 
 ## Project Outcomes
 Identified 19,421 critical risk orders representing $2.03M
-in profit losses — enabled ops team to prioritise action
+in profit losses, enabled ops team to prioritise action
 using a risk-sorted dashboard filtered by market and
 shipping mode.
