@@ -5,19 +5,9 @@ Analysed 180,519 global supply chain orders across 5 markets
 to identify where late deliveries and profit losses overlap
 and quantify the financial impact on the business.
 
-**Tools:** Excel (Power Query) · Power BI · DAX
-**Domain:** Supply Chain · Logistics · E-commerce Operations
-
----
-
 ## Business Problem
-A global supply chain company had no single view of where
-delivery failures and profit losses occurred simultaneously.
-The ops team needed a prioritised action list to address
-the highest-impact orders first.
-
-
----
+A global supply chain company had no single view of where delivery failures and profit losses occurred simultaneously.
+The ops team needed a prioritised action list to address the highest-impact orders first.
 
 ## Dataset
 - 180,519 orders across 5 markets (Europe, LATAM,
@@ -29,7 +19,7 @@ the highest-impact orders first.
 - Dataset sourced from Kaggle — [https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset]
   Raw data not included in repo due to file size (180K+ rows).
   Download from the link above and run Power Query refresh to regenerate.
----
+
 
 ## Data Preparation (Power Query)
 Built 7 calculated columns:
@@ -51,8 +41,6 @@ Built 7 calculated columns:
 - Initial Profit_Category thresholds pushed 70% of orders into
   one bucket. Recalibrated around mean profit of $21.97 using
   $0 / $20 / $100 breakpoints for balanced distribution.
-
----
 
 ## Key Findings
 
@@ -78,8 +66,6 @@ Built 7 calculated columns:
 - LATAM: 5,477 critical orders, -$0.6M profit loss
 - Combined = 65% of total profit at risk
 
----
-
 ## Recommendations
 
 1. **Route high-value orders to Standard Class**
@@ -97,11 +83,7 @@ Built 7 calculated columns:
    Escalate top 50 risk-score orders to carrier for priority
    handling. Focus on First Class orders in these markets first.
 
----
-
 ## Dashboard
-Built a 2-page Power BI dashboard: 
-
 **Page 1 — Supply Chain Overview**
 - 5 KPI cards: Total Orders, Late Rate %, Critical Orders,
   Profit at Risk, Loss Orders
@@ -119,7 +101,6 @@ Built a 2-page Power BI dashboard:
 - Stacked bar: risk score distribution by shipping mode
 - Slicers: Market + Shipping Mode for ops team filtering
 <img width="1312" height="741" alt="Page2 ActionList" src="https://github.com/user-attachments/assets/2a008303-945f-4438-84ad-356b98eb65f0" />
-
 
 ---
 
