@@ -1,15 +1,15 @@
 ## Supply Chain Delivery Performance & Profitability Analysis
 
-## Project Overview
+### Project Overview
 Analysed 180,519 global supply chain orders across 5 markets
 to identify where late deliveries and profit losses overlap
 and quantify the financial impact on the business.
 
-## Business Problem
+### Business Problem
 A global supply chain company had no single view of where delivery failures and profit losses occurred simultaneously.
 The ops team needed a prioritised action list to address the highest-impact orders first.
 
-## Dataset
+### Dataset
 - 180,519 orders across 5 markets (Europe, LATAM,
   Pacific Asia, USCA, Africa)
 - 4 shipping modes (Standard Class, First Class,
@@ -21,7 +21,7 @@ The ops team needed a prioritised action list to address the highest-impact orde
   Download from the link above and run Power Query refresh to regenerate.
 
 
-## Data Preparation (Power Query)
+### Data Preparation (Power Query)
 Built 7 calculated columns:
 
 | Column | Logic |
@@ -44,29 +44,29 @@ Built 7 calculated columns:
 
 ## Key Findings
 
-### Finding 1 : Delivery failure is a shipping mode problem
+#### Finding 1 : Delivery failure is a shipping mode problem
 - 54.8% of all orders carry late delivery risk
 - First Class and Second Class both exceed 50% late rate
 - Standard Class handles 60% of all orders at near-zero delay
 - All 5 markets show identical ~10-11% critical order rate —
   confirming this is NOT a regional problem
 
-### Finding 2 : 1 in 10 orders is a double loss
+#### Finding 2 : 1 in 10 orders is a double loss
 - 19,421 orders (10.8%) are CRITICAL — late AND loss-making
 - These orders represent -$2.03M in profit at risk
 - 18,553 orders score maximum risk on composite score
 
-### Finding 3 : Sports categories drive disproportionate losses
+#### Finding 3 : Sports categories drive disproportionate losses
 - Tennis & Racquet and Golf Apparel top the loss-making list
 - As Seen on TV and Fitness Accessories follow
 - Pattern suggests aggressive discounting eliminating margins
 
-### Finding 4 : Europe and LATAM highest risk by volume
+#### Finding 4 : Europe and LATAM highest risk by volume
 - Europe: 5,458 critical orders, -$0.7M profit loss
 - LATAM: 5,477 critical orders, -$0.6M profit loss
 - Combined = 65% of total profit at risk
 
-## Recommendations
+### Recommendations
 
 1. **Route high-value orders to Standard Class**
    First and Second Class exceed 50% late rate. Standard Class
@@ -83,7 +83,7 @@ Built 7 calculated columns:
    Escalate top 50 risk-score orders to carrier for priority
    handling. Focus on First Class orders in these markets first.
 
-## Dashboard
+#### Dashboard
 **Page 1 — Supply Chain Overview**
 - 5 KPI cards: Total Orders, Late Rate %, Critical Orders,
   Profit at Risk, Loss Orders
@@ -104,7 +104,7 @@ Built 7 calculated columns:
 
 ---
 
-## Skills Demonstrated
+### Skills Demonstrated
 - Power Query: data cleaning, type casting, 7 custom columns,
   M language formulas, nested if/else logic
 - Excel: IFS formulas, combo charts, conditional formatting
@@ -115,9 +115,7 @@ Built 7 calculated columns:
 - Analytics: data quality identification and resolution,
   composite risk scoring, business recommendation framing
 
----
-
-## Project Outcomes
+### Project Outcomes
 Identified 19,421 critical risk orders representing $2.03M
 in profit losses, enabled ops team to prioritise action
 using a risk-sorted dashboard filtered by market and
