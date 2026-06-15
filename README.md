@@ -1,4 +1,4 @@
-# Supply Chain Delivery Performance & Profitability Analysis
+## Supply Chain Delivery Performance & Profitability Analysis
 
 ## Project Overview
 Analysed 180,519 global supply chain orders across 5 markets
@@ -44,24 +44,24 @@ Built 7 calculated columns:
 
 ## Key Findings
 
-### Finding 1 — Delivery failure is a shipping mode problem
+### Finding 1 : Delivery failure is a shipping mode problem
 - 54.8% of all orders carry late delivery risk
 - First Class and Second Class both exceed 50% late rate
 - Standard Class handles 60% of all orders at near-zero delay
 - All 5 markets show identical ~10-11% critical order rate —
   confirming this is NOT a regional problem
 
-### Finding 2 — 1 in 10 orders is a double loss
+### Finding 2 : 1 in 10 orders is a double loss
 - 19,421 orders (10.8%) are CRITICAL — late AND loss-making
 - These orders represent -$2.03M in profit at risk
 - 18,553 orders score maximum risk on composite score
 
-### Finding 3 — Sports categories drive disproportionate losses
+### Finding 3 : Sports categories drive disproportionate losses
 - Tennis & Racquet and Golf Apparel top the loss-making list
 - As Seen on TV and Fitness Accessories follow
 - Pattern suggests aggressive discounting eliminating margins
 
-### Finding 4 — Europe and LATAM highest risk by volume
+### Finding 4 : Europe and LATAM highest risk by volume
 - Europe: 5,458 critical orders, -$0.7M profit loss
 - LATAM: 5,477 critical orders, -$0.6M profit loss
 - Combined = 65% of total profit at risk
