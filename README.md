@@ -16,7 +16,7 @@ The ops team needed a prioritised action list to address the highest-impact orde
   Second Class, Same Day)
 - Columns: delivery timing, shipping mode, profit per order,
   customer segment, product category, market, etc.
-- Dataset sourced from Kaggle — [https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset]
+- Dataset sourced from Kaggle : [https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset]
   Raw data not included in repo due to file size (180K+ rows).
   Download from the link above and run Power Query refresh to regenerate.
 
@@ -42,7 +42,7 @@ Built 7 calculated columns:
   one bucket. Recalibrated around mean profit of $21.97 using
   $0 / $20 / $100 breakpoints for balanced distribution.
 
-## Key Findings
+### Key Findings
 
 #### Finding 1 : Delivery failure is a shipping mode problem
 - 54.8% of all orders carry late delivery risk
@@ -52,7 +52,7 @@ Built 7 calculated columns:
   confirming this is NOT a regional problem
 
 #### Finding 2 : 1 in 10 orders is a double loss
-- 19,421 orders (10.8%) are CRITICAL — late AND loss-making
+- 19,421 orders (10.8%) are CRITICA - late AND loss-making
 - These orders represent -$2.03M in profit at risk
 - 18,553 orders score maximum risk on composite score
 
