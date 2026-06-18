@@ -1,6 +1,6 @@
 ## Supply Chain Delivery Performance & Profitability Analysis
 
-## Project Overview
+### Project Overview
 
 Analysed 180,519 global supply chain orders across 5 markets to identify where delivery failures and profit losses overlap and quantify the financial impact on business operations.
 
@@ -8,18 +8,16 @@ Analysed 180,519 global supply chain orders across 5 markets to identify where d
 
 **Domain:** Supply Chain, Logistics, E-Commerce Operations
 
----
-
-## Business Problem
+### Business Problem
 
 The company had no single view showing where operational inefficiencies and profitability issues occurred together.
 
 While delivery delays were being monitored separately and financial performance was tracked independently, there was no way to identify:
 
-* Which shipping methods were driving delivery failures
-* Which markets generated the highest operational risk
-* Which product categories consistently lost money
-* Which specific orders required immediate action
+* Which shipping methods were driving delivery failures?
+* Which markets generated the highest operational risk?
+* Which product categories consistently lost money?
+* Which specific orders required immediate action?
 * Which customer segment creates the greatest operational workload?
 
 
