@@ -20,7 +20,7 @@ While delivery delays were being monitored separately and financial performance 
 * Which markets generated the highest operational risk
 * Which product categories consistently lost money
 * Which specific orders required immediate action
-* Which orders should operations teams prioritise first?
+* Which customer segment creates the greatest operational workload?
 
 
 ## Key Business Questions Answered
