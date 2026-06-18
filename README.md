@@ -102,21 +102,20 @@ Introduce category-level margin controls, reduce aggressive discounting, and est
 
 Estimated recovery opportunity: $400K–$600K annually.
 
-### 5. Which orders should operations teams prioritise first?
+### 5. Which customer segment creates the greatest operational risk for the supply chain?
 
 #### Analysis
+Evaluated Critical orders across Customer Segments.
 
-Developed a composite Order Risk Score using delivery delay, profitability, and critical risk indicators.
-
-#### Insight
-
-The dashboard identified and ranked the highest-risk orders requiring immediate intervention.
-
-This transformed thousands of operational records into a prioritised action list for decision-makers.
+#### Insights
+Consumer Segment: ~94K orders (51.1% of total orders)
+10K Critical orders
+16K Loss orders
+$1.4M profit at risk
 
 #### Recommendation
 
-Review the top 50 highest-risk orders weekly and allocate resources based on risk score rather than order volume.
+Prioritize monitoring and resolution of critical Corporate orders. Focus on reducing loss orders to protect revenue and customer relationships.
 
 ---
 ### Key Findings summary
@@ -144,9 +143,9 @@ Review the top 50 highest-risk orders weekly and allocate resources based on ris
 - Pattern suggests aggressive discounting eliminating margins
   
 #### Finding 5: Order volume is not always aligned with delivery performance
-- Some regions with moderate order counts experience higher delay percentages than larger markets.
-- Operational efficiency varies significantly across regions.
-- Improvement efforts should focus on highest-risk orders rather than only high-volume markets.
+- Consumer segment accounts for the highest number of critical orders.
+- High order volume is translating into greater operational pressure.
+- Critical orders require immediate attention to prevent service disruptions.
 
 ### Recommendations
 
@@ -164,9 +163,9 @@ Review the top 50 highest-risk orders weekly and allocate resources based on ris
    Introduce category-level margin controls, reduce aggressive discounting, and establish minimum profitability thresholds. Estimated recovery opportunity: $400K
    -$600K annually.
    
-5. **Highest-risk orders requiring immediate intervention**
-   Review the top 50 highest-risk orders weekly and allocate resources based on risk score rather than order volume.
---- 
+5. **High Critical orders by Segment requiring immediate intervention**
+   Prioritize monitoring and resolution of critical Consumer orders.
+   
 ## Dashboard Solution
 
 ### Executive Overview Dashboard
@@ -178,8 +177,10 @@ Provides a high-level operational summary including:
 - Donut chart: delivery status distribution
 - Bar chart: late rate by shipping mode
 - Combo chart: market volume vs critical orders
+- Bar chart Segment vs Critical orders
 - Loss categories bar: top 10 loss-making categories
-  <img width="1296" height="737" alt="Page1 Overview" src="https://github.com/user-attachments/assets/c273c702-1aa4-4fdc-bcc2-a03ffbc046d0" />
+  <img width="1127" height="640" alt="Page 1" src="https://github.com/user-attachments/assets/d82952e8-3ebc-4d6c-8a1c-0bcc6668d90e" />
+
 
 ### Risk Action Dashboard
 
@@ -191,18 +192,14 @@ Features include:
 - Bar chart: profit at risk by market
 - Stacked bar: risk score distribution by shipping mode
 - Slicers: Interactive Market and Shipping Mode Filters
-<img width="1312" height="741" alt="Page2 ActionList" src="https://github.com/user-attachments/assets/2a008303-945f-4438-84ad-356b98eb65f0" />
+<img width="1125" height="641" alt="Page 2" src="https://github.com/user-attachments/assets/396b66c1-3a76-4cfb-b91a-fb56245957f2" />
+
 
 ---
 
 
 ### Dataset
-- 180,519 orders across 5 markets (Europe, LATAM,
-  Pacific Asia, USCA, Africa)
-- 4 shipping modes (Standard Class, First Class,
-  Second Class, Same Day)
-- Columns: delivery timing, shipping mode, profit per order,
-  customer segment, product category, market, etc.
+- 180,519 orders across 5 markets, 4 Shipping Modes and 3 Segments
 - Dataset sourced from Kaggle : [https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset]
   Raw data not included in repo due to file size (180K+ rows).
   Download from the link above and run Power Query refresh to regenerate.
@@ -238,6 +235,7 @@ The metric was reclassified as order-level profit and used accordingly throughou
 * 180,519 Orders Analysed
 * 19,421 Critical Orders Identified
 * $2.03M Profit at Risk Quantified
+* $1.4M Profit at risk in Consumer Segment
 * 18,553 Maximum-Risk Orders Prioritised
 * 65% of Profit Risk Concentrated in Europe and LATAM
 
@@ -246,8 +244,7 @@ The final dashboard transformed raw operational data into an actionable risk-man
 ### Project Outcomes
 Identified 19,421 critical risk orders representing $2.03M
 in profit losses, enabled ops team to prioritise action
-using a risk-sorted dashboard filtered by market and
-shipping mode.
+using a risk-sorted dashboard.
 
 ### Skills Demonstrated
 - Power Query: data cleaning, type casting, 7 custom columns,
