@@ -39,8 +39,6 @@ Compared late delivery percentages across all shipping modes.
 
 Route high-margin and high-value orders through Standard Class whenever operationally feasible and review carrier performance associated with First Class and Second Class shipping.
 
----
-
 ### 2. How many orders are simultaneously late and unprofitable?
 
 #### Analysis
@@ -163,7 +161,8 @@ Prioritize monitoring and resolution of critical Corporate orders. Focus on redu
    
 5. **High Critical orders by Segment requiring immediate intervention**
    Prioritize monitoring and resolution of critical Consumer orders.
-   
+---
+
 ## Dashboard Solution
 
 ### Executive Overview Dashboard
@@ -171,13 +170,14 @@ Prioritize monitoring and resolution of critical Corporate orders. Focus on redu
 Provides a high-level operational summary including:
 
 
-- 5 KPI cards: Total Orders, Late Rate %, Critical Orders, Profit at Risk, Loss Orders
+- 6 KPI cards: Total Orders, Late Rate %, Critical Orders, Profit at Risk, Loss Orders, Total Orders by Delivery Status
 - Donut chart: delivery status distribution
 - Bar chart: late rate by shipping mode
 - Combo chart: market volume vs critical orders
 - Bar chart Segment vs Critical orders
 - Loss categories bar: top 10 loss-making categories
-  <img width="1127" height="640" alt="Page 1" src="https://github.com/user-attachments/assets/d82952e8-3ebc-4d6c-8a1c-0bcc6668d90e" />
+  <img width="988" height="568" alt="Supply Chain Dashboard" src="https://github.com/user-attachments/assets/0310e763-860a-40c7-a8bd-a03856fbd8bb" />
+
 
 
 ### Risk Action Dashboard
@@ -189,8 +189,8 @@ Features include:
   sorted by risk score descending, with conditional formatting
 - Bar chart: profit at risk by market
 - Stacked bar: risk score distribution by shipping mode
-- Slicers: Interactive Market and Shipping Mode Filters
-<img width="1125" height="641" alt="Page 2" src="https://github.com/user-attachments/assets/396b66c1-3a76-4cfb-b91a-fb56245957f2" />
+- Slicers: Interactive Market and Shipping Mode and Segment Filters
+<img width="983" height="547" alt="Risk Action Page" src="https://github.com/user-attachments/assets/b61e8eb0-4bbb-4df9-8984-7a18d3c40c5e" />
 
 
 ---
