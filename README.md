@@ -230,7 +230,8 @@ Supply-Chain-Delivery-Performance-Profitability-Analysis/
 |      ├──Power BI/
 │             ├── Page 1 Overview.png
 │             └── Page 2 Risk Action.png
-|             └── Screenshots.txt
+|             └── SupplyChainDashboard.pbix
+|             └── readme.txt
 ├── README.md
 ```
 
