@@ -1,12 +1,6 @@
 ## Supply Chain Delivery Performance & Profitability Analysis
 
-### Project Overview
-
-Analysed 180,519 global supply chain orders across 5 markets to identify where delivery failures and profit losses overlap and quantify the financial impact on business operations.
-
-**Tools:** Excel (Power Query), Power BI, DAX
-
-**Domain:** Supply Chain, Logistics, E-Commerce Operations
+Supply chain orders across 5 markets - identify where delivery failures and profit losses overlap and quantify the financial impact on business operations.
 
 ### Business Problem
 
@@ -14,11 +8,22 @@ The company had no single view showing where operational inefficiencies and prof
 
 While delivery delays were being monitored separately and financial performance was tracked independently, there was no way to identify:
 
-* Which shipping methods were driving delivery failures?
-* Which markets generated the highest operational risk?
-* Which product categories consistently lost money?
-* Which specific orders required immediate action?
-* Which customer segment creates the greatest operational workload?
+1. Which shipping methods were driving delivery failures?
+2. Which markets generated the highest operational risk?
+3. Which product categories consistently lost money?
+4. Which specific orders required immediate action?
+5. Which customer segment creates the greatest operational workload?
+
+
+**Dataset:** DataCoSupplyChainDataset ( 180,519 orders across 5 markets, 4 Shipping Modes and 3 Segments)
+- Dataset sourced from Kaggle : [https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset]
+  Raw data not included in repo due to file size (180K+ rows).
+
+## Tools Used
+
+|---|---|
+| Tools | Excel (Power Query), Power BI, DAX |
+| Domain |Supply Chain, Logistics, E-Commerce Operations |
 
 
 ## Key Business Questions Answered
@@ -77,9 +82,7 @@ Prioritise operational improvement initiatives in Europe and LATAM and investiga
 
 ### 4. Which product categories generate the largest losses?
 
-#### Analysis
-
-Evaluated profitability across all product categories.
+Analysis : Evaluated profitability across all product categories.
 
 #### Insight
 
@@ -161,24 +164,25 @@ Prioritize monitoring and resolution of critical Corporate orders. Focus on redu
    
 5. **High Critical orders by Segment requiring immediate intervention**
    Prioritize monitoring and resolution of critical Consumer orders.
+   
 ---
 
 ## Dashboard Solution
 
+ <img width="988" height="568" alt="Supply Chain Dashboard" src="https://github.com/user-attachments/assets/0310e763-860a-40c7-a8bd-a03856fbd8bb" />
+ 
 ### Executive Overview Dashboard
 
 Provides a high-level operational summary including:
-
-
 - 6 KPI cards: Total Orders, Late Rate %, Critical Orders, Profit at Risk, Loss Orders, Total Orders by Delivery Status
 - Donut chart: delivery status distribution
 - Bar chart: late rate by shipping mode
 - Combo chart: market volume vs critical orders
 - Bar chart Segment vs Critical orders
 - Loss categories bar: top 10 loss-making categories
-  <img width="988" height="568" alt="Supply Chain Dashboard" src="https://github.com/user-attachments/assets/0310e763-860a-40c7-a8bd-a03856fbd8bb" />
 
 
+<img width="983" height="547" alt="Risk Action Page" src="https://github.com/user-attachments/assets/b61e8eb0-4bbb-4df9-8984-7a18d3c40c5e" />
 
 ### Risk Action Dashboard
 
@@ -190,19 +194,10 @@ Features include:
 - Bar chart: profit at risk by market
 - Stacked bar: risk score distribution by shipping mode
 - Slicers: Interactive Market and Shipping Mode and Segment Filters
-<img width="983" height="547" alt="Risk Action Page" src="https://github.com/user-attachments/assets/b61e8eb0-4bbb-4df9-8984-7a18d3c40c5e" />
-
 
 ---
 
-
-### Dataset
-- 180,519 orders across 5 markets, 4 Shipping Modes and 3 Segments
-- Dataset sourced from Kaggle : [https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset]
-  Raw data not included in repo due to file size (180K+ rows).
-  Download from the link above and run Power Query refresh to regenerate.
-
-## Data Preparation
+## Data Preparation in Excel
 
 Built seven custom business metrics using Power Query:
 
@@ -226,31 +221,17 @@ The metric was reclassified as order-level profit and used accordingly throughou
 
 ---
 
-## Business Impact
 
-### Key Results
+## Repository structure
 
-* 180,519 Orders Analysed
-* 19,421 Critical Orders Identified
-* $2.03M Profit at Risk Quantified
-* $1.4M Profit at risk in Consumer Segment
-* 18,553 Maximum-Risk Orders Prioritised
-* 65% of Profit Risk Concentrated in Europe and LATAM
+```
+Supply-Chain-Delivery-Performance-Profitability-Analysis/
+├── images/
+|      ├──Power BI/
+│             ├── Page 1 Overview.png
+│             └── Page 2 Risk Action.png
+|             └── Screenshots.txt
+├── README.md
+```
 
-The final dashboard transformed raw operational data into an actionable risk-management tool, enabling teams to identify where delivery failures and profitability losses overlap and focus interventions on the highest-impact areas.
 
-### Project Outcomes
-Identified 19,421 critical risk orders representing $2.03M
-in profit losses, enabled ops team to prioritise action
-using a risk-sorted dashboard.
-
-### Skills Demonstrated
-- Power Query: data cleaning, type casting, 7 custom columns,
-  M language formulas, nested if/else logic
-- Excel: IFS formulas, combo charts, conditional formatting
-  heatmap, PivotTables with slicers, reference lines
-- Power BI: DAX measures, CALCULATE, DIVIDE, visual-level
-  filters, conditional formatting, dual-axis combo charts,
-  cross-page slicer design
-- Analytics: data quality identification and resolution,
-  composite risk scoring, business recommendation framing
