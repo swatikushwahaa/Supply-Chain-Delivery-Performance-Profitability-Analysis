@@ -19,14 +19,11 @@ While delivery delays were being monitored separately and financial performance 
 - Dataset sourced from Kaggle : [https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset]
   Raw data not included in repo due to file size (180K+ rows).
 
-## Tools Used
-
-|---|---|
-| Tools | Excel (Power Query), Power BI, DAX |
-| Domain |Supply Chain, Logistics, E-Commerce Operations |
+### Tools Used : Excel (Power Query), Power BI, DAX 
+### Domain : Supply Chain, Logistics, E-Commerce Operations 
 
 
-## Key Business Questions Answered
+## Key Business Questions and Inights
 
 ### 1. Which shipping modes are responsible for the highest delivery delays?
 
@@ -117,31 +114,32 @@ $1.4M profit at risk
 Prioritize monitoring and resolution of critical Corporate orders. Focus on reducing loss orders to protect revenue and customer relationships.
 
 ---
-### Key Findings summary
 
-#### Finding 1 : Delivery failure is a shipping mode problem
+### Key Inisghts summary
+
+#### Inisght 1 : Delivery failure is a shipping mode problem
 - 54.8% of all orders carry late delivery risk
 - First Class and Second Class both exceed 50% late rate
 - Standard Class handles 60% of all orders at near-zero delay
 - All 5 markets show identical ~10-11% critical order rate —
   confirming this is NOT a regional problem
 
-#### Finding 2 : 1 in 10 orders is a double loss
+#### Inisght 2 : 1 in 10 orders is a double loss
 - 19,421 orders (10.8%) are CRITICA - late AND loss-making
 - These orders represent -$2.03M in profit at risk
 - 18,553 orders score maximum risk on composite score
 
-#### Finding 3 : Europe and LATAM highest risk by volume
+#### Inisght 3 : Europe and LATAM highest risk by volume
 - Europe: 5,458 critical orders, -$0.7M profit loss
 - LATAM: 5,477 critical orders, -$0.6M profit loss
 - Combined = 65% of total profit at risk
   
-#### Finding 4 : Sports categories drive disproportionate losses
+#### Inisght 4 : Sports categories drive disproportionate losses
 - Tennis & Racquet and Golf Apparel top the loss-making list
 - As Seen on TV and Fitness Accessories follow
 - Pattern suggests aggressive discounting eliminating margins
   
-#### Finding 5: Order volume is not always aligned with delivery performance
+#### Inisght 5: Order volume is not always aligned with delivery performance
 - Consumer segment accounts for the highest number of critical orders.
 - High order volume is translating into greater operational pressure.
 - Critical orders require immediate attention to prevent service disruptions.
@@ -175,11 +173,6 @@ Prioritize monitoring and resolution of critical Corporate orders. Focus on redu
 
 Provides a high-level operational summary including:
 - 6 KPI cards: Total Orders, Late Rate %, Critical Orders, Profit at Risk, Loss Orders, Total Orders by Delivery Status
-- Donut chart: delivery status distribution
-- Bar chart: late rate by shipping mode
-- Combo chart: market volume vs critical orders
-- Bar chart Segment vs Critical orders
-- Loss categories bar: top 10 loss-making categories
 
 
 <img width="983" height="547" alt="Risk Action Page" src="https://github.com/user-attachments/assets/b61e8eb0-4bbb-4df9-8984-7a18d3c40c5e" />
@@ -187,13 +180,6 @@ Provides a high-level operational summary including:
 ### Risk Action Dashboard
 
 Designed for operational teams to identify and act on high-risk orders.
-Features include:
-- Dynamic KPI cards: critical order count + profit at risk
-- Action table: filtered to Critical + High Risk orders only,
-  sorted by risk score descending, with conditional formatting
-- Bar chart: profit at risk by market
-- Stacked bar: risk score distribution by shipping mode
-- Slicers: Interactive Market and Shipping Mode and Segment Filters
 
 ---
 
@@ -210,6 +196,7 @@ Built seven custom business metrics using Power Query:
 | Profit_at_Risk            | Quantifies financial exposure    |
 | Shipping_Efficiency_Score | Evaluates shipping effectiveness |
 | Order_Risk_Score          | Prioritises operational action   |
+
 
 ### Data Quality Investigation
 
