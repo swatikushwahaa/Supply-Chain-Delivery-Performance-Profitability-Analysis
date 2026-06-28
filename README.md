@@ -162,7 +162,7 @@ Prioritize monitoring and resolution of critical Corporate orders. Focus on redu
 2. **Set minimum margin floor for Sports categories**
    Increase price floor by 15-20% or cap discounts at 10% for Tennis, Golf, and As Seen on TV categories. Projected recovery: $400K–$600K annually.
 
-3. **Weekly critical order review — Europe and LATAM**
+3. **Weekly critical order review - Europe and LATAM**
    Use Page 2 dashboard filtered to these markets weekly and Escalate top 50 risk-score orders to carrier for priority handling. Focus on First Class orders
    these markets first.
 
