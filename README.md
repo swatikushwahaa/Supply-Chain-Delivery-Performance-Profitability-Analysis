@@ -19,9 +19,10 @@ While delivery delays were being monitored separately and financial performance 
 - Dataset sourced from Kaggle : [https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset]
   Raw data not included in repo due to file size (180K+ rows).
 
-### Tools Used : Excel (Power Query), Power BI, DAX 
-### Domain : Supply Chain, Logistics, E-Commerce Operations 
+**Tools Used : Excel (Power Query), Power BI, DAX**
+**Domain : Supply Chain, Logistics, E-Commerce Operations**
 
+--- 
 
 ## Key Business Questions and Inights
 
@@ -41,6 +42,8 @@ Compared late delivery percentages across all shipping modes.
 
 Route high-margin and high-value orders through Standard Class whenever operationally feasible and review carrier performance associated with First Class and Second Class shipping.
 
+---
+
 ### 2. How many orders are simultaneously late and unprofitable?
 
 #### Analysis
@@ -57,6 +60,8 @@ Created a Double Loss Flag to identify orders that were both delayed and loss-ma
 #### Recommendation
 
 Establish a weekly operational review process focused on critical orders and implement early escalation procedures before shipment.
+
+---
 
 ### 3. Which markets contribute the most operational and financial risk?
 
@@ -77,6 +82,8 @@ Europe and LATAM together accounted for approximately 65% of total profit at ris
 
 Prioritise operational improvement initiatives in Europe and LATAM and investigate regional carrier and fulfilment performance.
 
+---
+
 ### 4. Which product categories generate the largest losses?
 
 Analysis : Evaluated profitability across all product categories.
@@ -95,8 +102,9 @@ These categories consistently produced negative profit outcomes despite sales vo
 #### Recommendation
 
 Introduce category-level margin controls, reduce aggressive discounting, and establish minimum profitability thresholds.
-
 Estimated recovery opportunity: $400K–$600K annually.
+
+---
 
 ### 5. Which customer segment creates the greatest operational risk for the supply chain?
 
@@ -144,6 +152,8 @@ Prioritize monitoring and resolution of critical Corporate orders. Focus on redu
 - High order volume is translating into greater operational pressure.
 - Critical orders require immediate attention to prevent service disruptions.
 
+--- 
+
 ### Recommendations
 
 1. **Route high-value orders to Standard Class**
@@ -174,6 +184,7 @@ Prioritize monitoring and resolution of critical Corporate orders. Focus on redu
 Provides a high-level operational summary including:
 - 6 KPI cards: Total Orders, Late Rate %, Critical Orders, Profit at Risk, Loss Orders, Total Orders by Delivery Status
 
+---
 
 <img width="983" height="547" alt="Risk Action Page" src="https://github.com/user-attachments/assets/b61e8eb0-4bbb-4df9-8984-7a18d3c40c5e" />
 
