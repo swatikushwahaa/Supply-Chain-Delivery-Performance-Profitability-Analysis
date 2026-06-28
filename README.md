@@ -177,20 +177,21 @@ Prioritize monitoring and resolution of critical Corporate orders. Focus on redu
 
 ## Dashboard Solution
 
- <img width="988" height="568" alt="Supply Chain Dashboard" src="https://github.com/user-attachments/assets/0310e763-860a-40c7-a8bd-a03856fbd8bb" />
- 
 ### Executive Overview Dashboard
 
 Provides a high-level operational summary including:
 - 6 KPI cards: Total Orders, Late Rate %, Critical Orders, Profit at Risk, Loss Orders, Total Orders by Delivery Status
 
----
+ <img width="988" height="568" alt="Supply Chain Dashboard" src="https://github.com/user-attachments/assets/0310e763-860a-40c7-a8bd-a03856fbd8bb" />
+ 
 
-<img width="983" height="547" alt="Risk Action Page" src="https://github.com/user-attachments/assets/b61e8eb0-4bbb-4df9-8984-7a18d3c40c5e" />
+---
 
 ### Risk Action Dashboard
 
 Designed for operational teams to identify and act on high-risk orders.
+
+<img width="983" height="547" alt="Risk Action Page" src="https://github.com/user-attachments/assets/b61e8eb0-4bbb-4df9-8984-7a18d3c40c5e" />
 
 ---
 
