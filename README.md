@@ -160,7 +160,7 @@ Prioritize monitoring and resolution of critical Corporate orders. Focus on redu
    First and Second Class exceed 50% late rate. Standard Class operates at near-zero delay with 60% of volume. Switch orders with profit above $50 to Standard Class automatically.
 
 2. **Set minimum margin floor for Sports categories**
-   Increase price floor by 15-20% or cap discounts at 10% for Tennis, Golf, and As Seen on TV categories. Projected recovery: $400K–$600K annually.
+   Increase price floor by 15-20% or cap discounts at 10% for Tennis, Golf, and As Seen on TV categories.
 
 3. **Weekly critical order review - Europe and LATAM**
    Use Page 2 dashboard filtered to these markets weekly and Escalate top 50 risk-score orders to carrier for priority handling. Focus on First Class orders
