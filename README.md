@@ -231,18 +231,7 @@ Built seven custom business metrics using Power Query:
 | Shipping_Efficiency_Score | Evaluates shipping effectiveness |
 | Order_Risk_Score          | Prioritises operational action   |
 
-
-### Data Quality Investigation
-
-A significant data quality issue was discovered during analysis.
-
-The field named **Order_Item_Profit_Ratio** contained absolute profit values ranging from -$4,774 to +$911 rather than ratios.
-
-The metric was reclassified as order-level profit and used accordingly throughout the analysis.
-
 ---
-
-
 ## Repository structure
 
 ```
