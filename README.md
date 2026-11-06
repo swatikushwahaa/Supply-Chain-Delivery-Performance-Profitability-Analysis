@@ -24,28 +24,6 @@ While delivery delays were being monitored separately and financial performance 
 
 --- 
 
-### Business Problem
-
-The company had no single view showing where operational inefficiencies and profitability issues occurred together.
-
-While delivery delays were being monitored separately and financial performance was tracked independently, there was no way to identify:
-
-1. Which shipping methods were driving delivery failures?
-2. Which markets generated the highest operational risk?
-3. Which product categories consistently lost money?
-4. Which specific orders required immediate action?
-5. Which customer segment creates the greatest operational workload?
-
-
-**Dataset:** DataCoSupplyChainDataset ( 180,519 orders across 5 markets, 4 Shipping Modes and 3 Segments)
-- Dataset sourced from Kaggle : [https://www.kaggle.com/datasets/saicharankomati/dataco-supply-chain-dataset]
-  Raw data not included in repo due to file size (180K+ rows).
-
-**Tools Used : Excel (Power Query), Power BI, DAX**
-**Domain : Supply Chain, Logistics, E-Commerce Operations**
-
---- 
-
 ## Key Business Questions and Inights
 
 ### 1. Which shipping modes are responsible for the highest delivery delays?
@@ -228,7 +206,6 @@ Built seven custom business metrics using Power Query:
 | Profit_Category           | Segments order profitability     |
 | Double_Loss_Flag          | Identifies critical orders       |
 | Profit_at_Risk            | Quantifies financial exposure    |
-| Shipping_Efficiency_Score | Evaluates shipping effectiveness |
 | Order_Risk_Score          | Prioritises operational action   |
 
 ---
