@@ -76,7 +76,7 @@ Measured critical **order counts** and profit-at-risk values by market.
 | Europe | 5,458           |
 | LATAM  | 5,477           |
 
-Europe and LATAM together accounted for approximately 65% of total profit at risk beacause of high sales volume.
+Europe and LATAM together accounted for 58% of total profit at risk beacause of high sales volume.
 
 #### Recommendation
 
