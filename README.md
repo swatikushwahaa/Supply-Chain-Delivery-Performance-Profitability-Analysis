@@ -54,7 +54,7 @@ Created a Double Loss Flag to identify orders that were both delayed and loss-ma
 
 * 19,421 orders were classified as CRITICAL.
 * These represented 10.8% of all orders.
-* Total profit at risk exceeded $2.03 million.
+* Total profit at risk exceeded $2 million.
 * 18,553 orders reached the highest composite risk score.
 
 #### Recommendation
