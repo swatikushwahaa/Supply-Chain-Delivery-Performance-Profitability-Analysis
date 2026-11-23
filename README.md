@@ -36,11 +36,13 @@ Compared late delivery percentages across all shipping modes.
 
 * 57% of all orders experienced late delivery.
 * First Class and Second Class together had an 84% late delivery rate (53K late out of 63K orders).
-* Standard Class processed approximately 60% of all orders while maintaining near-zero average delay.
+* Standard Class processed approximately 60% of all orders and had a lower late delivery rate 38% than First Class and Second Class (about 89% combined).
+* Same Day shipping has the fewest late orders (about 5K), but this reflects low volume, as it handles only about 5% of orders. Its late rate (45.7%) is higher than Standard Class.
+* Late delivery is a problem across all shipping modes, not just the premium ones.
 
 #### Recommendation
 
-Route high-margin and high-value orders through Standard Class whenever operationally feasible and review carrier performance associated with First Class and Second Class shipping.
+Review carrier performance and scheduled delivery times for First Class and Second Class first, as they have the highest late rates. Investigate the Standard Class late rate (about 40%) since it carries about 60% of volume, and the largest absolute share of late orders (43K). Same Day should be monitored, not expanded, until its late rate improves, since a 45.7% late rate undermines the premium it promises.
 
 ---
 
