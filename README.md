@@ -34,8 +34,8 @@ Compared late delivery percentages across all shipping modes.
 
 #### Insight
 
-* More than 54% of all orders experienced late delivery.
-* First Class and Second Class both exceeded 50% late delivery rate.
+* 57% of all orders experienced late delivery.
+* First Class and Second Class together had an 84% late delivery rate (53K late out of 63K orders).
 * Standard Class processed approximately 60% of all orders while maintaining near-zero average delay.
 
 #### Recommendation
